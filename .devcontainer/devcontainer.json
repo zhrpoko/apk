@@ -1,0 +1,16 @@
+{
+  "name": "Android Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "android.android-studio",
+        "kotlinlang.kotlin"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "remoteUser": "vscode"
+}
